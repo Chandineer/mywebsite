@@ -201,9 +201,9 @@ p {
 
 /* xmas Section */
 #xmas {
-	background-image: url("img/XMAS CAM00393.png");
+	background-image: url("img/mousi-logo.svg");
 	background-size: cover;
-	background-position: top center;
+	background-position: center;
 	position: relative;
 	z-index: 1;
 }
@@ -219,7 +219,7 @@ p {
 	z-index: -1;
 }
 #xmas .xmas {
-	max-width: 1920px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
@@ -269,7 +269,7 @@ p {
 #services .services {
 	flex-direction: column;
 	text-align: center;
-	max-width: 2100px;
+	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
@@ -292,7 +292,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url("img/mousi-logo.png");
+	background-image: url("img/XMAS CAM00393.png");
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -330,7 +330,7 @@ p {
 /* Events section */
 #events .events {
 	flex-direction: column;
-	max-width: 1920px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
@@ -404,7 +404,7 @@ p {
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
-	max-width: 1920px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
 }
@@ -451,7 +451,7 @@ p {
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
-	max-width: 1920px;
+	max-width: 1200px;
 	margin: 0 auto;
 	width: 90%;
 }
@@ -590,7 +590,7 @@ p {
 	}
 	/* End Services Section */
 
-	/* Project */
+	/* Event */
 	#events .event-item {
 		flex-direction: row;
 	}
@@ -618,15 +618,10 @@ p {
 	#about .col-left {
 		width: 600px;
 		height: 400px;
+		position: relative;
 		padding-left: 60px;
 	}
-	#about .about .col-left .about-img::after {
-		left: -45px;
-		top: 34px;
-		height: 98%;
-		width: 98%;
-		border: 10px solid red;
-	}
+
 	#about .col-right {
 		text-align: left;
 		padding: 30px;
@@ -673,7 +668,7 @@ p {
 /* End Media Query For Tablet */
 
 /* Media Query For Desktop */
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1200px) {
 	/* header */
 	#header .hamburger {
 		display: none;
