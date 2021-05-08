@@ -566,6 +566,46 @@ p {
 	}
 }
 /* End Keyframes */
+/* Media Query For Mobile */
+@media only screen and (min-width : 375px ){
+	.cta {
+		font-size: 1rem;
+		padding: 20px 60px;
+	}
+	h1.section-title {
+		font-size: 2rem;
+	}
+
+	/* xmas */
+	#xmas h1 {
+		font-size: 2rem;
+	}
+	/* End xmas */
+
+
+	/* End Services Section */
+
+	/* About */
+	#about .about {
+		flex-direction: row;
+	}
+	#about .col-left {
+		width: 200px;
+		height: 100px;
+		position: relative;
+		padding-left: 10px;
+	}
+
+	#about .col-right {
+		text-align: left;
+		padding: 15px;
+	}
+	#about .col-right h1 {
+		text-align: left;
+	}
+		/* End About */
+}
+/* End Media Query For Mobile */
 
 /* Media Query For Tablet */
 @media only screen and (min-width : 768px ){
